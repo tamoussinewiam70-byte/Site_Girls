@@ -45,17 +45,16 @@ nav a:hover{
 
 @media (max-width:600px){
     header{
-        padding: 0 5px 0 5px;
+        padding: 0 5px;
+        width: 95%;
     }
     nav{
-        margin-right: 20px;
-        font-size: smaller;
-        text-align:end;
+        margin:0;
     }
     nav a{
-        padding: 2px;
+        padding: 0 2px 0 1px;
+        font-size: smaller;
     }
-
 }
 
 
