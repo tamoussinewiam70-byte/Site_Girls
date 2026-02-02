@@ -1,0 +1,325 @@
+*{
+    font-family:sans-serif ;
+}
+header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    background-color: white;
+    border-bottom: solid 1px pink;
+    opacity: 0.9;
+
+}
+
+nav{
+    margin-right: 150px;
+}
+nav a{
+    padding: 30px;
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+nav a:hover{
+    color: black;
+}
+@media (max-width:1000px) and (min-width:600px){
+    header{
+        padding: 5px;
+    }
+    nav{
+        margin: 0;
+        width: 70%;
+    }
+    nav a{
+        padding: 4px;
+    }
+}
+
+@media (max-width:600px){
+    header{
+        padding: 0 5px 0 5px;
+    }
+    nav{
+        margin-right: 20px;
+        font-size: smaller;
+        text-align:end;
+    }
+    nav a{
+        padding: 2px;
+    }
+
+}
+.partie1{
+    background-color: rgb(232, 89, 146);
+    text-align: center;
+    padding:200px;
+    font-size: 1rem;
+    font-weight:bold;
+    color:white;
+    gap:20px;
+  
+}
+@media(max-width:600px){
+    .partie1{
+        padding:80px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+
+#bijoux{
+    display: flex;  
+    justify-content: space-around;
+    margin: 10px;
+}
+.bijou{
+    height: 500px;
+    width: 23%;
+    margin: 10px;
+    border: solid 1px pink;
+    border-radius: 10px;
+}
+.bijou:hover{
+    box-shadow: 0 5px 20px pink;
+}
+@media (max-width:900px){
+    #bijoux{
+        flex-wrap: wrap;
+    }
+    .bijou{
+        width: 45%;
+        height: auto;
+    }
+}
+@media(max-width:600px){
+     #bijoux{
+        flex-direction: column;
+        align-items: center;
+     }
+     .bijou{
+        width: 90%;
+        height: auto;
+     }
+}
+
+.imgs{
+    height: 60%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.imgs:hover{
+    transform: scalet(1.05);
+    transition: 0.3s ease;
+}
+@media(max-width:600px){
+    .imgs{
+        height: 200px;
+    }
+}
+@media(max-width:900px){
+    .imgs{
+        height: 220px;
+    }
+
+}
+#img1{
+    background-image: url(PhotoS/Bague3.jpg);
+    background-repeat:round ;
+}
+#img1:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+}
+
+#img2{
+    background-image: url(PhotoS/Bague5.jpg);
+    background-repeat:round ;
+}
+#img2:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+}
+
+
+#img3{
+    background-image: url(PhotoS/Boul.jpg);
+    background-repeat:round;
+}
+#img3:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+}
+
+
+
+#img4{
+    background-image: url(PhotoS/Boucle2.jpg);
+    background-repeat:round ;
+}
+#img4:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+}
+#img5{
+    background-image: url(PhotoS/Bracele1.jpg);
+    background-repeat:round ;
+}
+#img5:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+}
+
+#img6{
+    background-image: url(PhotoS/Bracele3.jpg);
+    background-repeat:round ;
+}
+#img6:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+}
+
+
+#img7{
+    background-image: url(PhotoS/Col4.jpg);
+    background-repeat:round;
+}
+#img7:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+}
+
+
+
+#img8{
+    background-image: url(PhotoS/Col1.jpg);
+    background-repeat:round ;
+}
+#img8:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+}
+#img9{
+    background-image: url(PhotoS/Brouch.jpg);
+    background-repeat:round ;
+}
+#img9:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+}
+#img10{
+    background-image: url(PhotoS/Chmar.jpg);
+    background-repeat:round ;
+}
+#img10:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+}
+#img11{
+    background-image: url(PhotoS/Mdemma.jpg);
+    background-repeat:round ;
+}
+#img11:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+}
+#img12{
+    background-image: url(PhotoS/Montre.jpg);
+    background-repeat:round ;
+}
+#img12:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+}
+.back{
+    display: inline-block;
+    margin: 20px 60px;
+    text-decoration: none;
+    color: white;
+    position:relative;
+    bottom:20px;
+    font-size: 14px;
+}
+
+
+.back:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+footer{
+    background-color:rgb(1, 1, 32);
+    color:#eee;
+    width: auto;
+    padding:15px;
+    
+}
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    gap:30px;
+    
+}
+.shop{
+      flex:1 1 200px;
+      margin:20px;
+}
+.shop p{
+    color:rgb(218, 218, 234);
+    font-size: 14px;
+}
+.shop h3 {
+    color:white;
+    margin-bottom: 15px;
+    font-size :18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.shop h2{
+    color:white;
+    margin-bottom: 15px;
+    font-size :18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.shop ul{
+    list-style:none;
+    padding:0;
+    font-size: 14px;
+}
+.shop ul li{
+    margin-bottom:10px;
+}
+.shop ul li a{
+    color:#eee;
+    text-decoration:none;
+    transition:color 0.3s ease;
+}
+.shop ul li a:hover{
+    color:rgb(239, 63, 151);
+}
+.footer2{
+   text-align:center;
+   margin-top:30px;
+   font-size: 14px;
+   padding-top: 20px;
+   color:rgb(218, 218, 234);
+
+}
